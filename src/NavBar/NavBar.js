@@ -11,7 +11,7 @@ import { FormControl, Nav, NavDropdown } from "react-bootstrap";
 const NavBar = () => {
     return (
         <>
-            <Navbar bg="light" expand="lg">
+            <Navbar bg="light" expand="lg" id="nav">
                 <Container fluid>
                     <Navbar.Brand href="#">RAEA</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
@@ -22,12 +22,12 @@ const NavBar = () => {
                             navbarScroll
                         >
                             <Nav.Link href="#action1">Home</Nav.Link>
-                            <NavDropdown title="Publications" id="navbarSctrollingDropdown">
+                            <NavDropdown title="Publications" id="navbarScrollingDropdown">
                                 <NavDropdown.Item href="#action3">Books</NavDropdown.Item>
                                 <NavDropdown.Item href="#action4">Posters</NavDropdown.Item>
                             </NavDropdown>
                             <Nav.Link href="#action1">Gallery</Nav.Link>
-                            <NavDropdown title="About" id="navbarSctrollingDropdown">
+                            <NavDropdown title="About" id="navbarScrollingDropdown">
                                 <NavDropdown.Item href="#action3">History</NavDropdown.Item>
                                 <NavDropdown.Item href="#action4">Founders & Current Board</NavDropdown.Item>
                                 <NavDropdown.Item href="#action4">Executive Board</NavDropdown.Item>
