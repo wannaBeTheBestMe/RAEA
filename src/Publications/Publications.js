@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import scrollTill from "../scrollTill";
 import "./Publications.css";
 import b0 from "./books/b0.jpg";
 import b1 from "./books/b1.jpg";

@@ -1,0 +1,15 @@
+.gallery {
+  background-color: #90bce8;
+  margin: 0;
+}
+
+.heading {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

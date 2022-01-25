@@ -26,7 +26,7 @@ const NavBar = () => {
                                 <NavDropdown.Item href="#publications-books">Books</NavDropdown.Item>
                                 <NavDropdown.Item href="#publications-posters">Posters</NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link href="#action1">Gallery</Nav.Link>
+                            <Nav.Link href="#event-gallery">Gallery</Nav.Link>
                             <NavDropdown title="About" id="navbarScrollingDropdown">
                                 <NavDropdown.Item href="#action3">History</NavDropdown.Item>
                                 <NavDropdown.Item href="#action4">Founders & Current Board</NavDropdown.Item>
