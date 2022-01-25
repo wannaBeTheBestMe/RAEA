@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import NavBar from "./NavBar/NavBar.js";
-import Body from "./Parallax/Parallax.js"
+import Body from "./Body/Body.js"
 
 ReactDOM.render(
     <React.StrictMode>

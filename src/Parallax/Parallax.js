@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import scrollTill from "../scrollTill";
 import "./Parallax.css";
-import raea_institution_main from "src/img/raea_institution_main.jpg";
+import raea_institution from "./raea_institution.jpg";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Button from 'react-bootstrap/Button';
@@ -32,7 +32,10 @@ const Parallax = () => {
 
   return (
     <>
-      <section className="parallax-section">
+      <section
+        className="parallax-section"
+        style={{ backgroundImage: `url('${raea_institution}')` }}
+      >
         <div className="parallax-overlay">
           <ul className="parallax-ul">
             <li className="scroll" data-rate="-1.5" data-direction="vertical">
@@ -40,7 +43,7 @@ const Parallax = () => {
                 variant="primary"
                 size="lg"
                 className="mb-5"
-                onClick={() => scrollTill("noice")}>
+                onClick={() => scrollTill("vision")}>
                 Read More
               </Button>
             </li>
@@ -50,8 +53,6 @@ const Parallax = () => {
         </div>
       </section>
       <section className="parallax-section"></section>
-
-      <p id="noice">noice</p>
     </>
   );
 }
