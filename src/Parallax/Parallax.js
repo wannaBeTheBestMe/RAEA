@@ -40,6 +40,7 @@ const Parallax = () => {
           <ul className="parallax-ul">
             <li className="scroll" data-rate="-1.5" data-direction="vertical">
               <Button
+                id="RAEA"
                 variant="primary"
                 size="lg"
                 className="mb-5"

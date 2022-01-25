@@ -13,7 +13,7 @@ const NavBar = () => {
         <>
             <Navbar bg="light" expand="lg" id="nav">
                 <Container fluid>
-                    <Navbar.Brand href="#">RAEA</Navbar.Brand>
+                    <Navbar.Brand href="#RAEA">RAEA</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
                         <Nav
@@ -26,6 +26,7 @@ const NavBar = () => {
                                 <NavDropdown.Item href="#publications-books">Books</NavDropdown.Item>
                                 <NavDropdown.Item href="#publications-posters">Posters</NavDropdown.Item>
                             </NavDropdown>
+                            <Nav.Link href="#accolades">Accolades</Nav.Link>
                             <Nav.Link href="#event-gallery">Gallery</Nav.Link>
                             <NavDropdown title="About" id="navbarScrollingDropdown">
                                 <NavDropdown.Item href="#action3">History</NavDropdown.Item>

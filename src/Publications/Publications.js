@@ -159,7 +159,7 @@ const Books = () => {
 const Posters = () => {
   return (
     <>
-      <div className="publications" id="publications-posters">
+      <div className="publications pb-3" id="publications-posters">
         <h1 className="display-1 heading pt-5 pb-5">
           PUBLICATIONS<br />
           <small className="text-muted display-6">POSTERS</small>
