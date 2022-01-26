@@ -33,7 +33,6 @@ const Accolades = () => {
       <div className="awards pb-3" id="accolades">
         <h1 className="display-1 heading pt-5 pb-5">
           ACCOLADES
-          {/* <small className="text-muted display-6">EVENTS</small> */}
         </h1>
 
         <Container className="accolades-container">

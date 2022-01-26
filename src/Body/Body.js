@@ -6,6 +6,7 @@ import Mission from "../Mission/Mission.js";
 import Publications from "../Publications/Publications.js";
 import Accolades from "../Accolades/Accolades";
 import Gallery from "../Gallery/Gallery.js";
+import History from "../History/History";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -18,6 +19,7 @@ const Body = () => {
       <Publications />
       <Accolades />
       <Gallery />
+      <History />
     </>
   );
 }
