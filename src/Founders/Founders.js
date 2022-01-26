@@ -85,7 +85,7 @@ const Founders = () => {
             <tr>
               <td>1.</td>
               <td>Shri Ramesh Thanvi</td>
-              <td>Presiden</td>
+              <td>President</td>
             </tr>
             <tr>
               <td>2.</td>
