@@ -30,7 +30,7 @@ const NavBar = () => {
                             <Nav.Link href="#event-gallery">Gallery</Nav.Link>
                             <NavDropdown title="About" id="navbarScrollingDropdown">
                                 <NavDropdown.Item href="#about-history">History</NavDropdown.Item>
-                                <NavDropdown.Item href="#action4">Founders & Current Board</NavDropdown.Item>
+                                <NavDropdown.Item href="#founders-current-board">Founders & Current Board</NavDropdown.Item>
                                 <NavDropdown.Item href="#action4">Executive Board</NavDropdown.Item>
                                 <NavDropdown.Divider />
                                 <NavDropdown.Item href="#action5">
