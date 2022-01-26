@@ -17,3 +17,5 @@ npm run build
 ```
 
 in order to run a local instance of the production version of the project.
+
+This project is licensed under the terms of the MIT license.
