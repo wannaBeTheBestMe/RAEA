@@ -1,0 +1,18 @@
+.history {
+  background-color: #90bce8;
+  margin: 0;
+}
+
+.heading {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.history-container > * {
+  justify-content: center;
+  /* text-align: center; */
+}
+
+.vedic-saying {
+  text-align: center;
+}

@@ -1,0 +1,10 @@
+.mission-container {
+  /* background-color: #526431; */
+  background-color: #90bce8;
+}
+
+.mission-container > * {
+  gap: 20px;
+  padding-bottom: 10px;
+  justify-content: center;
+}

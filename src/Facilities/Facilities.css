@@ -1,0 +1,14 @@
+.facilities-infrastructure {
+  background-color: #90bce8;
+  margin: 0;
+}
+
+.heading {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.facilities-infrastructure > * {
+  justify-content: center;
+  /* text-align: center; */
+}

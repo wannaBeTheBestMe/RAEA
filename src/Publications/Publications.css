@@ -1,0 +1,24 @@
+.publications {
+  background-color: #7e545e;
+  margin: 0;
+}
+
+.heading {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.publications-container {
+  /* padding: 0; */
+  text-align: center;
+  justify-content: center;
+  /* max-width: 70%;
+  margin-left: 350px; */
+  /* margin-top: -7.6px; */
+}
+
+.publications-container > * {
+  gap: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+}

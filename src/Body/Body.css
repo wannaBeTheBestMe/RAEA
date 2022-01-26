@@ -1,0 +1,42 @@
+section:first-of-type {
+  margin-top: 70px;
+}
+
+.parallax-section {
+  height: 100%;
+  background-image: url("https://raealokshiksha.org/assets/img/raea_main.jpg");
+  width: 100%;
+  max-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-overlay {
+  position: absolute;
+  width: 100%;
+  /* Following value should be twice line 9 (max-height property) */
+  height: 1000px;
+  /* z-index: 2; */
+  background-color: rgba(1, 45, 147, 0.2);
+}
+
+.parallax-ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 20%;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  align-items: middle;
+  place-items: center;
+  height: 100vh;
+
+  font-size: 32px;
+  font-weight: bold;
+  /* color: #ca7561; */
+  color: white;
+}

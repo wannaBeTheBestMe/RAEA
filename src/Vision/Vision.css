@@ -1,0 +1,32 @@
+.vision-container {
+  background-color: #7e545e;
+}
+
+.heading {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* .vision-container {
+
+} */
+
+.vision-container > * {
+  gap: 20px;
+  padding-bottom: 10px;
+  justify-content: center;
+}
+
+.parent {
+  display: flex;
+  flex-direction: row;
+  height: 60vh;
+}
+
+.child1 {
+  width: 50%;
+}
+
+.child2 {
+  width: 50%;
+}
