@@ -36,7 +36,7 @@ const NavBar = () => {
                                     Facilities
                                 </NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link href="#action1">Contact</Nav.Link>
+                            <Nav.Link href="#contact">Contact</Nav.Link>
                             {/* <Nav.Link href="#" disabled>
                                 Link
                             </Nav.Link> */}

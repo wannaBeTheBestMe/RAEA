@@ -9,6 +9,7 @@ import Gallery from "../Gallery/Gallery.js";
 import History from "../History/History";
 import Founders from "../Founders/Founders";
 import Facilities from "../Facilities/Facilities.js";
+import Contact from "../Contact/Contact";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -24,6 +25,7 @@ const Body = () => {
       <History />
       <Founders />
       <Facilities />
+      <Contact />
     </>
   );
 }
