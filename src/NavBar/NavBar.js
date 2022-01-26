@@ -36,6 +36,7 @@ const NavBar = () => {
                                     Facilities
                                 </NavDropdown.Item>
                             </NavDropdown>
+                            <Nav.Link href="https://www.youtube.com/channel/UCRuceHiUSl0jdi76-O8OSvg/featured">YouTube</Nav.Link>
                             <Nav.Link href="#contact">Contact</Nav.Link>
                             {/* <Nav.Link href="#" disabled>
                                 Link
