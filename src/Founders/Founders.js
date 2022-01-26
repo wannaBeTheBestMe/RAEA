@@ -36,7 +36,7 @@ const Founders = () => {
           <small className="text-muted display-6">& CURRENT BOARD</small>
         </h1>
 
-        <h2 className="display-4 heading pb-2">FOUNDERS</h2>
+        <h2 className="h2 heading pb-2">FOUNDERS</h2>
         <Container className="pb-5">
           <CardGroup className="pb-3">
             <Founder src={bordiajiA} title="Anil Bordia" description="Mr Anil Bordia, the former Secretary of Education, Ministry of HRD, Govt. of India who also served as the Director Primary and Secondary Education in Rajasthan; was the founder of this organisation. He is no more with us but his guiding and inspiring spirit walks with us everday. He is always being fondly remembered. We organise a memorial lecture ever year." />
@@ -72,7 +72,7 @@ const Founders = () => {
           </Card>
         </Container>
 
-        <h2 className="display-4 heading pb-2">CURRENT EXECUTIVE COMMITTEE</h2>
+        <h2 className="h2 heading pb-2">CURRENT EXECUTIVE COMMITTEE</h2>
         <Table striped bordered hover className="bg-light heading" style={{ "width": "81em" }}>
           <thead>
             <tr>

@@ -8,6 +8,7 @@ import Accolades from "../Accolades/Accolades";
 import Gallery from "../Gallery/Gallery.js";
 import History from "../History/History";
 import Founders from "../Founders/Founders";
+import Facilities from "../Facilities/Facilities.js";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -22,6 +23,7 @@ const Body = () => {
       <Gallery />
       <History />
       <Founders />
+      <Facilities />
     </>
   );
 }
